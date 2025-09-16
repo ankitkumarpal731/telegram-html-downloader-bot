@@ -5,7 +5,7 @@ from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTyp
 from bs4 import BeautifulSoup
 import re, requests, subprocess, zipfile
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")  # Get from environment (for Railway)
+BOT_TOKEN = os.getenv("7919866373:AAEPWDSj85GJHH7bAVUKhVTLYU2JIaEc_80")  # Get from environment (for Railway)
 
 def extract_links(html_content):
     soup = BeautifulSoup(html_content, "html.parser")
